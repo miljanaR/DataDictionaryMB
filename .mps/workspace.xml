@@ -8,134 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00b4c68b-b770-4e37-95a7-8cb2838cd70a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/ActionAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/ActionAspectDescriptorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/node_factories_Field$NodeFactory_2336684179409703904.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/node_factories_Field$NodeFactory_2336684179409703904.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/node_factories_Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/node_factories_Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/node_factories_StructureDefinition$NodeFactory_510907218762934095.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/node_factories_StructureDefinition$NodeFactory_510907218762934095.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/node_factories_StructureDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/node_factories_StructureDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/actions/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/BehaviorAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/BehaviorAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/DataDictionary__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/DataDictionary__BehaviorDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/Field__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/Field__BehaviorDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/IAbstractElement__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/IAbstractElement__BehaviorDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/IAbstractStructure__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/IAbstractStructure__BehaviorDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/StructureDefinition__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/StructureDefinition__BehaviorDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/behavior/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/constraints/ConstraintsAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/constraints/ConstraintsAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/constraints/Field_Constraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/constraints/Field_Constraints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/constraints/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Aggregation_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Aggregation_Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Aggregation_EditorBuilder_a$elementsListHandler_tbnvmd_b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Aggregation_EditorBuilder_a$elementsListHandler_tbnvmd_b0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Aggregation_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Aggregation_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$structuresListHandler_r8s0uu_g0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a$structuresListHandler_r8s0uu_g0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_a0a$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_a0a$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_a0a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_a0a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_b0a$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_b0a$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_b0a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_b0a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_c0a$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_c0a$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_c0a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_c0a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/ExclusiveSpecialization_StyleSheet$squareStyleClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/ExclusiveSpecialization_StyleSheet$squareStyleClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/ExclusiveSpecialization_StyleSheet.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/ExclusiveSpecialization_StyleSheet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Field_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Field_Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Field_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Field_EditorBuilder_a$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Field_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Field_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Field_InspectorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Field_InspectorBuilder_a$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Field_InspectorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Field_InspectorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/NonExclusive_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/NonExclusive_Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/NonExclusive_EditorBuilder_a$elementsListHandler_h0p8y5_b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/NonExclusive_EditorBuilder_a$elementsListHandler_h0p8y5_b0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/NonExclusive_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/NonExclusive_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Set_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Set_Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Set_EditorBuilder_a$elementsListHandler_vbc55h_b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Set_EditorBuilder_a$elementsListHandler_vbc55h_b0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Set_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/Set_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_EditorBuilder_a$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_EditorBuilder_a$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_EditorBuilder_a$structureSingleRoleHandler_k189df_d0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_EditorBuilder_a$structureSingleRoleHandler_k189df_d0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_InspectorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_InspectorBuilder_a$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_InspectorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/StructureDefinition_InspectorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/IntentionsDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/IntentionsDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/intention_DataDictionary_createAggregation_Intention$IntentionImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/intention_DataDictionary_createAggregation_Intention$IntentionImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/intention_DataDictionary_createAggregation_Intention.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/intention_DataDictionary_createAggregation_Intention.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/parametrized_intention_DataDictionary_create_structures_Intention$IntentionImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/parametrized_intention_DataDictionary_create_structures_Intention$IntentionImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/parametrized_intention_DataDictionary_create_structures_Intention.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/parametrized_intention_DataDictionary_create_structures_Intention.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/intentions/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/structure/StructureAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/structure/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/typesystem/TypesystemDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/typesystem/TypesystemDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/typesystem/check_Field_length_NonTypesystemRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/typesystem/check_Field_length_NonTypesystemRule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/typesystem/check_StructureDefinition_NonTypesystemRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/typesystem/check_StructureDefinition_NonTypesystemRule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/classes_gen/DataDictionaryDsl/typesystem/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/generator/source_gen.caches/DataDictionaryDsl/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/generator/source_gen.caches/DataDictionaryDsl/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/models/editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/models/editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/models/structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/models/structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/actions/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/actions/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/behavior/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/behavior/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/constraints/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/constraints/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/constraints/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/constraints/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/editor/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/editor/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/intentions/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/intentions/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/intentions/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/intentions/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/structure/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/structure/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/structure/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/typesystem/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/typesystem/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/typesystem/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen.caches/DataDictionaryDsl/typesystem/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/actions/ActionAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/actions/ActionAspectDescriptorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/actions/node_factories_Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/actions/node_factories_Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/actions/node_factories_StructureDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/actions/node_factories_StructureDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/actions/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/actions/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/DataDictionary__BehaviorDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/DataDictionary__BehaviorDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/Field__BehaviorDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/Field__BehaviorDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/IAbstractElement__BehaviorDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/IAbstractElement__BehaviorDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/IAbstractStructure__BehaviorDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/IAbstractStructure__BehaviorDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/StructureDefinition__BehaviorDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/StructureDefinition__BehaviorDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/behavior/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/constraints/Field_Constraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/constraints/Field_Constraints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/constraints/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/Aggregation_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/Aggregation_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/DataDictionary_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/DataDictionary_TransformationMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/ExclusiveSpecialization_StyleSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/ExclusiveSpecialization_StyleSheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/Field_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/Field_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/Field_InspectorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/Field_InspectorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/NonExclusive_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/NonExclusive_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/Set_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/Set_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/StructureDefinition_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/StructureDefinition_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/StructureDefinition_InspectorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/StructureDefinition_InspectorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/intentions/IntentionsDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/intentions/IntentionsDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/intentions/intention_DataDictionary_createAggregation_Intention.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/intentions/intention_DataDictionary_createAggregation_Intention.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/intentions/parametrized_intention_DataDictionary_create_structures_Intention.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/intentions/parametrized_intention_DataDictionary_create_structures_Intention.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/intentions/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/intentions/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/structure/StructureAspectDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/structure/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/typesystem/check_Field_length_NonTypesystemRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/typesystem/check_Field_length_NonTypesystemRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/typesystem/check_StructureDefinition_NonTypesystemRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/typesystem/check_StructureDefinition_NonTypesystemRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionaryDsl/source_gen/DataDictionaryDsl/typesystem/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +21,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="b23a6a09-9bbf-4ca9-b086-1a9a90d974ee/r:422a8a38-b9ce-4229-a0fa-92ebc522c82f(TempModuleb23a6a09-9bbf-4ca9-b086-1a9a90d974ee/ConsoleModel_13529275649800)">
+            <model ref="b44ce5b9-896b-4d5c-ac80-ed4b31850234/r:5d9ea886-6317-4aab-a851-ab0f51153c3b(TempModuleb44ce5b9-896b-4d5c-ac80-ed4b31850234/ConsoleModel_24349972498600)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -168,11 +41,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5uRKA20MZ6D">
-                <node concept="3balQm" id="5uRKA20MZ6E" role="aymYE" />
-                <node concept="2Clz$F" id="5uRKA20MZ6F" role="aymYO" />
-                <node concept="2_V_lH" id="5uRKA20MZ6G" role="1PhJh3">
-                  <ref role="2_V_lI" node="5uRKA20MZ6F" resolve="CommandHolder" />
+              <node concept="aymSD" id="5jMsQ5deLW6">
+                <node concept="3balQm" id="5jMsQ5deLW7" role="aymYE" />
+                <node concept="2Clz$F" id="5jMsQ5deLW8" role="aymYO" />
+                <node concept="2_V_lH" id="5jMsQ5deLW9" role="1PhJh3">
+                  <ref role="2_V_lI" node="5jMsQ5deLW8" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -283,18 +156,9 @@
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4c5277dc-9d92-42f7-b29d-0beee05fc586" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -304,8 +168,18 @@
               <option name="myItemId" value="16d63821-a917-4aaf-a85f-305cd4a0013f(DataDictionaryDsl)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:bb0e4ed0-51eb-4179-aa62-896788d45e4f(DataDictionaryDsl.structure) in IdeaFile[path: D:/FON master/SoftverskiZahtevi/DataDictionaryMB/languages/DataDictionaryDsl/models/structure.mps]" />
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4c5277dc-9d92-42f7-b29d-0beee05fc586" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataDictionaryDsl" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,15 +207,31 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="4c5277dc-9d92-42f7-b29d-0beee05fc586" />
+              <option name="myItemId" value="16d63821-a917-4aaf-a85f-305cd4a0013f(DataDictionaryDsl)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DataDictionaryDsl" />
+              <option name="myItemId" value="r:bb0e4ed0-51eb-4179-aa62-896788d45e4f(DataDictionaryDsl.structure) in IdeaFile[path: D:/FON master/SoftverskiZahtevi/DataDictionaryMB/languages/DataDictionaryDsl/models/structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4c5277dc-9d92-42f7-b29d-0beee05fc586" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
@@ -350,16 +240,17 @@
               <option name="myItemId" value="16d63821-a917-4aaf-a85f-305cd4a0013f(DataDictionaryDsl)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="r:bb0e4ed0-51eb-4179-aa62-896788d45e4f(DataDictionaryDsl.structure) in IdeaFile[path: D:/FON master/SoftverskiZahtevi/DataDictionaryMB/languages/DataDictionaryDsl/models/structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6320734321771278747" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
       <pane id="Favorites" />
     </panes>
   </component>
@@ -401,9 +292,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584879208858" />
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1584878776923">
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1584889133854">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584878776923" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584889133854" />
   </component>
 </project>
