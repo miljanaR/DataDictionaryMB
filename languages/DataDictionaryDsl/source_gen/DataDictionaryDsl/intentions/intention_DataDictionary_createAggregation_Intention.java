@@ -18,6 +18,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
+import org.jetbrains.mps.openapi.language.SProperty;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public final class intention_DataDictionary_createAggregation_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
@@ -38,7 +40,7 @@ public final class intention_DataDictionary_createAggregation_Intention extends 
   }
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
-      myCachedExecutable = Collections.<IntentionExecutable>singletonList(new intention_DataDictionary_createAggregation_Intention.IntentionImplementation());
+      myCachedExecutable = Collections.<IntentionExecutable>singletonList(new IntentionImplementation());
     }
     return myCachedExecutable;
   }
@@ -53,13 +55,22 @@ public final class intention_DataDictionary_createAggregation_Intention extends 
     public void execute(final SNode node, final EditorContext editorContext) {
       SNode nodeA = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9c14454L, "DataDictionaryDsl.structure.Aggregation"));
       SNode nodeSD = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff46L, "DataDictionaryDsl.structure.StructureDefinition"));
-      SPropertyOperations.assign(nodeSD, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "n/a");
-      SLinkOperations.setTarget(nodeSD, MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff46L, 0x73ede05be9c17ae9L, "structure"), nodeA);
-      ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff49L, 0x73ede05be9bfff4cL, "structures"))).addElement(nodeSD);
+      SPropertyOperations.assign(nodeSD, PROPS.name$tAp1, "n/a");
+      SLinkOperations.setTarget(nodeSD, LINKS.structure$YniE, nodeA);
+      ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.structures$cLb9)).addElement(nodeSD);
     }
     @Override
     public IntentionDescriptor getDescriptor() {
       return intention_DataDictionary_createAggregation_Intention.this;
     }
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty name$tAp1 = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink structure$YniE = MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff46L, 0x73ede05be9c17ae9L, "structure");
+    /*package*/ static final SContainmentLink structures$cLb9 = MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff49L, 0x73ede05be9bfff4cL, "structures");
   }
 }

@@ -12,6 +12,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
@@ -137,6 +138,50 @@
     <node concept="PrWs8" id="sn6Qynu7fL" role="PzmwI">
       <ref role="PrY4T" node="sn6Qynu7fJ" resolve="ISpecialization" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="5uRKA20MZ6e">
+    <property role="EcuMT" value="6320734321771278734" />
+    <property role="TrG5h" value="AbstractDomain" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="5uRKA20MZ6r">
+    <property role="EcuMT" value="6320734321771278747" />
+    <property role="TrG5h" value="UserDefinedDomain" />
+    <ref role="1TJDcQ" node="5uRKA20MZ6e" resolve="AbstractDomain" />
+  </node>
+  <node concept="1TIwiD" id="5uRKA20MZ6s">
+    <property role="EcuMT" value="6320734321771278748" />
+    <property role="TrG5h" value="PredefinedDomain" />
+    <ref role="1TJDcQ" node="5uRKA20MZ6e" resolve="AbstractDomain" />
+  </node>
+  <node concept="1TIwiD" id="5uRKA20MZ6H">
+    <property role="EcuMT" value="6320734321771278765" />
+    <property role="TrG5h" value="IntPrimitiveType" />
+    <property role="34LRSv" value="int" />
+    <ref role="1TJDcQ" node="5uRKA20MZ6s" resolve="PredefinedDomain" />
+  </node>
+  <node concept="1TIwiD" id="5uRKA20MZ6I">
+    <property role="EcuMT" value="6320734321771278766" />
+    <property role="TrG5h" value="BoolPrimitiveType" />
+    <property role="34LRSv" value="bool" />
+    <ref role="1TJDcQ" node="5uRKA20MZ6s" resolve="PredefinedDomain" />
+  </node>
+  <node concept="1TIwiD" id="5uRKA20MZ6J">
+    <property role="EcuMT" value="6320734321771278767" />
+    <property role="TrG5h" value="DatePrimitiveType" />
+    <property role="34LRSv" value="Date" />
+    <ref role="1TJDcQ" node="5uRKA20MZ6s" resolve="PredefinedDomain" />
+  </node>
+  <node concept="1TIwiD" id="5uRKA20MZ6K">
+    <property role="EcuMT" value="6320734321771278768" />
+    <property role="TrG5h" value="DoublePrimitiveType" />
+    <property role="34LRSv" value="double" />
+    <ref role="1TJDcQ" node="5uRKA20MZ6s" resolve="PredefinedDomain" />
+  </node>
+  <node concept="1TIwiD" id="5uRKA20MZ6L">
+    <property role="EcuMT" value="6320734321771278769" />
+    <property role="TrG5h" value="StringPrimitiveType" />
+    <ref role="1TJDcQ" node="5uRKA20MZ6s" resolve="PredefinedDomain" />
   </node>
 </model>
 

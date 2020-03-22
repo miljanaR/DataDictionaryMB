@@ -20,7 +20,7 @@ public class ExclusiveSpecialization_StyleSheet {
   public static void apply_square(Style style, EditorCell editorCell) {
     SNode node = (editorCell == null ? null : editorCell.getSNode());
     EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
-    new ExclusiveSpecialization_StyleSheet.squareStyleClass(editorContext, node).apply(style, editorCell);
+    new squareStyleClass(editorContext, node).apply(style, editorCell);
   }
 
   public static class squareStyleClass extends AbstractStyleClass {

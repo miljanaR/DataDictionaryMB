@@ -33,7 +33,7 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
     switch (conceptIndex.index(cncpt)) {
       case 0:
         if (true) {
-          // Concept: DataDictionary 
+          // concept 
           intentions = new IntentionFactory[2];
           intentions[0] = new intention_DataDictionary_createAggregation_Intention();
           intentions[1] = new parametrized_intention_DataDictionary_create_structures_Intention();

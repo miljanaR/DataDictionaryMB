@@ -674,5 +674,9 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="5uRKA20MZ6M">
+    <ref role="1XX52x" to="wigx:5uRKA20MZ6e" resolve="AbstractDomain" />
+    <node concept="3EYTF0" id="5uRKA20MZ6N" role="2wV5jI" />
+  </node>
 </model>
 

@@ -6,15 +6,25 @@ import jetbrains.mps.openapi.actions.descriptor.NodeFactory;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import DataDictionaryDsl.behavior.StructureDefinition__BehaviorDescriptor;
+import org.jetbrains.mps.openapi.language.SConcept;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 public class node_factories_Field {
   public static class NodeFactory_2336684179409703904 implements NodeFactory {
     public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
-      SNode nodeSD = SNodeOperations.getNodeAncestor(enclosingNode, MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff46L, "DataDictionaryDsl.structure.StructureDefinition"), false, false);
-      SPropertyOperations.assign(newNode, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "Field-" + ((int) StructureDefinition__BehaviorDescriptor.getFieldCount_id21H$u6216wK.invoke(nodeSD) + 1));
+      SNode nodeSD = SNodeOperations.getNodeAncestor(enclosingNode, CONCEPTS.StructureDefinition$sz, false, false);
+      SPropertyOperations.assign(newNode, PROPS.name$tAp1, "Field-" + ((int) StructureDefinition__BehaviorDescriptor.getFieldCount_id21H$u6216wK.invoke(nodeSD) + 1));
     }
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept StructureDefinition$sz = MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff46L, "DataDictionaryDsl.structure.StructureDefinition");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty name$tAp1 = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
 }

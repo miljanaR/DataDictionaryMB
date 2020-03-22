@@ -48,7 +48,7 @@ public class DataDictionary_TransformationMenu extends TransformationMenuBase {
   protected List<MenuPart<TransformationMenuItem, TransformationMenuContext>> getParts(TransformationMenuContext _context) {
     List<MenuPart<TransformationMenuItem, TransformationMenuContext>> result = new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>();
     if (ListSequence.fromListAndArray(new ArrayList<String>(), MenuLocations.CONTEXT_ASSISTANT).contains(_context.getMenuLocation())) {
-      result.add(new DataDictionary_TransformationMenu.TMP_SubMenu_m077tv_a0());
+      result.add(new TMP_SubMenu_m077tv_a0());
     }
     return result;
   }
@@ -80,12 +80,12 @@ public class DataDictionary_TransformationMenu extends TransformationMenuBase {
 
     @Override
     protected List<MenuPart<TransformationMenuItem, TransformationMenuContext>> getParts() {
-      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new DataDictionary_TransformationMenu.TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_a0a(), new DataDictionary_TransformationMenu.TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_b0a(), new DataDictionary_TransformationMenu.TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_c0a());
+      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_a0a(), new TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_b0a(), new TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_c0a());
     }
     private class TMP_Action_m077tv_a0a extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
       @Nullable
       protected TransformationMenuItem createItem(TransformationMenuContext context) {
-        DataDictionary_TransformationMenu.TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_a0a.Item item = new DataDictionary_TransformationMenu.TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_a0a.Item(context);
+        TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_a0a.Item item = new TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_a0a.Item(context);
         String description;
         try {
           description = "single item: " + item.getLabelText("");
@@ -129,13 +129,14 @@ public class DataDictionary_TransformationMenu extends TransformationMenuBase {
         public EditorMenuTraceInfo getTraceInfo() {
           return myEditorMenuTraceInfo;
         }
+
       }
 
     }
     private class TMP_Action_m077tv_b0a extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
       @Nullable
       protected TransformationMenuItem createItem(TransformationMenuContext context) {
-        DataDictionary_TransformationMenu.TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_b0a.Item item = new DataDictionary_TransformationMenu.TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_b0a.Item(context);
+        TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_b0a.Item item = new TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_b0a.Item(context);
         String description;
         try {
           description = "single item: " + item.getLabelText("");
@@ -179,13 +180,14 @@ public class DataDictionary_TransformationMenu extends TransformationMenuBase {
         public EditorMenuTraceInfo getTraceInfo() {
           return myEditorMenuTraceInfo;
         }
+
       }
 
     }
     private class TMP_Action_m077tv_c0a extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
       @Nullable
       protected TransformationMenuItem createItem(TransformationMenuContext context) {
-        DataDictionary_TransformationMenu.TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_c0a.Item item = new DataDictionary_TransformationMenu.TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_c0a.Item(context);
+        TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_c0a.Item item = new TMP_SubMenu_m077tv_a0.TMP_Action_m077tv_c0a.Item(context);
         String description;
         try {
           description = "single item: " + item.getLabelText("");
@@ -229,6 +231,7 @@ public class DataDictionary_TransformationMenu extends TransformationMenuBase {
         public EditorMenuTraceInfo getTraceInfo() {
           return myEditorMenuTraceInfo;
         }
+
       }
 
     }

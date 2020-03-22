@@ -5,8 +5,6 @@ package DataDictionaryDsl.behavior;
 import jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.core.aspects.behaviour.api.BehaviorRegistry;
-import jetbrains.mps.smodel.language.ConceptRegistry;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
 import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
@@ -22,12 +20,13 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
+import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public final class IAbstractStructure__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x7171b68977873e5L, "DataDictionaryDsl.structure.IAbstractStructure");
-  private static final BehaviorRegistry REGISTRY = ConceptRegistry.getInstance().getBehaviorRegistry();
 
-  public static final SMethod<Integer> getFieldCount_id21H$u621wMk = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getFieldCount").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("21H$u621wMk").registry(REGISTRY).build();
+  public static final SMethod<Integer> getFieldCount_id21H$u621wMk = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getFieldCount").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("21H$u621wMk").build();
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getFieldCount_id21H$u621wMk);
 
@@ -37,8 +36,8 @@ public final class IAbstractStructure__BehaviorDescriptor extends BaseBHDescript
   /*package*/ static int getFieldCount_id21H$u621wMk(@NotNull SNode __thisNode__) {
     int count = 0;
 
-    for (SNode element : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x7171b68977873e5L, 0x7171b68977873e9L, "elements")))) {
-      if (SNodeOperations.isInstanceOf(element, MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9c14433L, "DataDictionaryDsl.structure.Field"))) {
+    for (SNode element : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.elements$XVyt))) {
+      if (SNodeOperations.isInstanceOf(element, CONCEPTS.Field$9$)) {
         count++;
       } else {
         count += (int) IAbstractElement__BehaviorDescriptor.getFieldCount_id21H$u621wMk.invoke(element);
@@ -49,7 +48,6 @@ public final class IAbstractStructure__BehaviorDescriptor extends BaseBHDescript
   }
 
   /*package*/ IAbstractStructure__BehaviorDescriptor() {
-    super(REGISTRY);
   }
 
   @Override
@@ -93,5 +91,13 @@ public final class IAbstractStructure__BehaviorDescriptor extends BaseBHDescript
   @Override
   public SAbstractConcept getConcept() {
     return CONCEPT;
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept Field$9$ = MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9c14433L, "DataDictionaryDsl.structure.Field");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink elements$XVyt = MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x7171b68977873e5L, 0x7171b68977873e9L, "elements");
   }
 }

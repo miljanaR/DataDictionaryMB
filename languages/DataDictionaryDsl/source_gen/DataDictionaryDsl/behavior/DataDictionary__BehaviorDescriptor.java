@@ -5,8 +5,6 @@ package DataDictionaryDsl.behavior;
 import jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.core.aspects.behaviour.api.BehaviorRegistry;
-import jetbrains.mps.smodel.language.ConceptRegistry;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
 import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
@@ -22,14 +20,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public final class DataDictionary__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff49L, "DataDictionaryDsl.structure.DataDictionary");
-  private static final BehaviorRegistry REGISTRY = ConceptRegistry.getInstance().getBehaviorRegistry();
 
-  public static final SMethod<Integer> getStructureNumbers_idsn6QynvV5F = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getStructureNumbers").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("sn6QynvV5F").registry(REGISTRY).build();
-  public static final SMethod<Integer> getAggregationNumbers_idsn6QynwAX5 = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getAggregationNumbers").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("sn6QynwAX5").registry(REGISTRY).build();
-  public static final SMethod<Integer> getSetNumbers_idsn6Qynx2H2 = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getSetNumbers").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("sn6Qynx2H2").registry(REGISTRY).build();
+  public static final SMethod<Integer> getStructureNumbers_idsn6QynvV5F = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getStructureNumbers").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("sn6QynvV5F").build();
+  public static final SMethod<Integer> getAggregationNumbers_idsn6QynwAX5 = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getAggregationNumbers").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("sn6QynwAX5").build();
+  public static final SMethod<Integer> getSetNumbers_idsn6Qynx2H2 = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getSetNumbers").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("sn6Qynx2H2").build();
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStructureNumbers_idsn6QynvV5F, getAggregationNumbers_idsn6QynwAX5, getSetNumbers_idsn6Qynx2H2);
 
@@ -37,12 +36,12 @@ public final class DataDictionary__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ static int getStructureNumbers_idsn6QynvV5F(@NotNull SNode __thisNode__) {
-    return ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff49L, 0x73ede05be9bfff4cL, "structures"))).count();
+    return ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.structures$cLb9)).count();
   }
   /*package*/ static int getAggregationNumbers_idsn6QynwAX5(@NotNull SNode __thisNode__) {
     int num = 0;
-    for (SNode el : SLinkOperations.getChildren(__thisNode__, MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff49L, 0x73ede05be9bfff4cL, "structures"))) {
-      if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(el, MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff46L, 0x73ede05be9c17ae9L, "structure")), MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9c14454L, "DataDictionaryDsl.structure.Aggregation"))) {
+    for (SNode el : SLinkOperations.getChildren(__thisNode__, LINKS.structures$cLb9)) {
+      if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(el, LINKS.structure$YniE), CONCEPTS.Aggregation$2f)) {
         num++;
       }
     }
@@ -50,8 +49,8 @@ public final class DataDictionary__BehaviorDescriptor extends BaseBHDescriptor {
   }
   /*package*/ static int getSetNumbers_idsn6Qynx2H2(@NotNull SNode __thisNode__) {
     int num = 0;
-    for (SNode el : SLinkOperations.getChildren(__thisNode__, MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff49L, 0x73ede05be9bfff4cL, "structures"))) {
-      if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(el, MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff46L, 0x73ede05be9c17ae9L, "structure")), MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9c14455L, "DataDictionaryDsl.structure.Set"))) {
+    for (SNode el : SLinkOperations.getChildren(__thisNode__, LINKS.structures$cLb9)) {
+      if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(el, LINKS.structure$YniE), CONCEPTS.Set$2I)) {
         num++;
       }
     }
@@ -59,7 +58,6 @@ public final class DataDictionary__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ DataDictionary__BehaviorDescriptor() {
-    super(REGISTRY);
   }
 
   @Override
@@ -107,5 +105,15 @@ public final class DataDictionary__BehaviorDescriptor extends BaseBHDescriptor {
   @Override
   public SAbstractConcept getConcept() {
     return CONCEPT;
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink structures$cLb9 = MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff49L, 0x73ede05be9bfff4cL, "structures");
+    /*package*/ static final SContainmentLink structure$YniE = MetaAdapterFactory.getContainmentLink(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9bfff46L, 0x73ede05be9c17ae9L, "structure");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept Aggregation$2f = MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9c14454L, "DataDictionaryDsl.structure.Aggregation");
+    /*package*/ static final SConcept Set$2I = MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9c14455L, "DataDictionaryDsl.structure.Set");
   }
 }

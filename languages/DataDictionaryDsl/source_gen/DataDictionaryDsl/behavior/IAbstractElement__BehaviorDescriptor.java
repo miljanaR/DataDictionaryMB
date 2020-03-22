@@ -5,8 +5,6 @@ package DataDictionaryDsl.behavior;
 import jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.core.aspects.behaviour.api.BehaviorRegistry;
-import jetbrains.mps.smodel.language.ConceptRegistry;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
 import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
@@ -22,9 +20,8 @@ import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class IAbstractElement__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x7171b68977873e6L, "DataDictionaryDsl.structure.IAbstractElement");
-  private static final BehaviorRegistry REGISTRY = ConceptRegistry.getInstance().getBehaviorRegistry();
 
-  public static final SMethod<Integer> getFieldCount_id21H$u621wMk = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getFieldCount").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("21H$u621wMk").registry(REGISTRY).build();
+  public static final SMethod<Integer> getFieldCount_id21H$u621wMk = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getFieldCount").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("21H$u621wMk").build();
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getFieldCount_id21H$u621wMk);
 
@@ -36,7 +33,6 @@ public final class IAbstractElement__BehaviorDescriptor extends BaseBHDescriptor
   }
 
   /*package*/ IAbstractElement__BehaviorDescriptor() {
-    super(REGISTRY);
   }
 
   @Override
